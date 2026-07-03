@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 APP_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-PORT=8022
+PORT=8021
 URL="http://localhost:${PORT}/index.html"
 LOG_FILE="/tmp/nbme_bs_21_server.log"
 
